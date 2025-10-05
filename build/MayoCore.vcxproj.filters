@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoCore_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\3rdparty\fmt\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\application_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\application_item_selection_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\bnd_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\brep_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\caf_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\document_tree_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\enumeration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\geom_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\io_format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\io_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\io_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\io_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\label_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\math_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\mesh_access.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\mesh_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\messenger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\messenger_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\occ_progress_indicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\occ_static_variables_rollback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\occt_enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\point_cloud_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\property_builtins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\property_enumeration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\property_value_conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\signal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\string_conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\task_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\task_progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\text_id.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\tkernel_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\triangulation_annex_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\unit_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\base\xcaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\ais_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_create_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_create_virtual_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_mesh_data_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_mesh_object_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_object_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_point_cloud_object_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_shape_object_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\graphics\graphics_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\gui\gui_application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\gui\gui_document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\gui\v3d_view_camera_animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\gui\v3d_view_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoCore_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoCore_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoCore_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\application_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\application_item_selection_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\application_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\bnd_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\brep_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\caf_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\cpp_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\document_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\document_tree_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\enumeration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\enumeration_fromenum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\filepath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\filepath_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\geom_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\io_format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\io_parameters_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\io_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\io_single_format_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\io_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\io_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\label_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\libtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\math_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\mesh_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\mesh_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\messenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\messenger_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\meta_enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\occ_brep_mesh_parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\occ_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\occ_progress_indicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\occ_static_variables_rollback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\occt_enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\point_cloud_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\property_builtins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\property_enumeration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\property_value_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\settings_index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\signal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\span.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\string_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\task_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\task_progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\text_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\tkernel_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\triangulation_annex_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\typed_scalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\unit_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\base\xcaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\ais_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_mesh_data_source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_mesh_object_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_object_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_object_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_owner_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_point_cloud_object_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_shape_object_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_texture2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\graphics\graphics_view_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\gui\gui_application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\gui\gui_document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\gui\gui_vkey_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\gui\v3d_view_camera_animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\gui\v3d_view_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Debug\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_Release\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_MinSizeRel\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoCore_autogen\include_RelWithDebInfo\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\gCode\github\mayo\build\CMakeFiles\4d0792cf707ca7855eaa77131912f04f\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\gCode\github\mayo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\gCode\github\mayo\build\MayoCore_autogen\autouic_Debug.stamp" />
+    <None Include="D:\gCode\github\mayo\build\MayoCore_autogen\autouic_Release.stamp" />
+    <None Include="D:\gCode\github\mayo\build\MayoCore_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\gCode\github\mayo\build\MayoCore_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6B210F2F-583F-33D7-8A57-42C6E4CA866C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{310FCF36-1B1D-3213-A306-B23DF4AAA07B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{744929E6-AAB0-3FA5-ADA7-FE42C34B5813}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

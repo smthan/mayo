@@ -4,3 +4,11 @@ build-*
 custom.pri
 env.pri
 cmake/CustomSteps.cmake
+*.pdb
+\.vs\
+*/.vs/*
+debug
+*.log
+*.tlog
+*.dir/
+*autogen/

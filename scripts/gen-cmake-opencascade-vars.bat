@@ -5,6 +5,7 @@ set _OPENCASCADE_ROOTDIR_=%1
 if not exist "%_OPENCASCADE_ROOTDIR_%\env.bat"  echo set(OpenCASCADE_FOUND false)
 if not exist "%_OPENCASCADE_ROOTDIR_%\env.bat"  exit /b 1
 
+set CASROOT=%1
 set CSF_OCCTIncludePath=
 set CSF_OCCTBinPath=
 set CSF_OCCTLibPath=

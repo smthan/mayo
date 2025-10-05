@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B18C6EB-0F9C-38C1-A924-477C0D4C04AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MayoIO</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\gCode\github\mayo\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MayoIO.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MayoIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\gCode\github\mayo\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MayoIO.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MayoIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\gCode\github\mayo\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MayoIO.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MayoIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\gCode\github\mayo\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MayoIO.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MayoIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4150</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target MayoIO</Message>
+      <Command>setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/gCode/github/mayo/build/CMakeFiles/MayoIO_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/gCode/github/mayo/build/MayoIO_autogen/autouic_Debug.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_Release;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4150</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_Release;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_Release;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target MayoIO</Message>
+      <Command>setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/gCode/github/mayo/build/CMakeFiles/MayoIO_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/gCode/github/mayo/build/MayoIO_autogen/autouic_Release.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4150</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target MayoIO</Message>
+      <Command>setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/gCode/github/mayo/build/CMakeFiles/MayoIO_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/gCode/github/mayo/build/MayoIO_autogen/autouic_MinSizeRel.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4150</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_DISABLE_DEPRECATED_BEFORE=0x050F00;QT_IMPLICIT_QFILEINFO_CONSTRUCTION;NOMINMAX;HAVE_RAPIDJSON;OCCT_HANDLE_NOCAST;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo;D:\gCode\github\mayo\src\3rdparty;D:\gCode\github\mayo\build;F:\OpenCasCAD\opencascade-7.9.1\opencascade-7.9.1\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target MayoIO</Message>
+      <Command>setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/gCode/github/mayo/build/CMakeFiles/MayoIO_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/gCode/github/mayo/build/MayoIO_autogen/autouic_RelWithDebInfo.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\gCode\github\mayo\build\CMakeFiles\acac76d36bc9963e865be56918159838\autouic_(CONFIG).stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\gCode\github\mayo\src\app\dialog_about.ui;D:\gCode\github\mayo\src\app\dialog_inspect_xde.ui;D:\gCode\github\mayo\src\app\dialog_options.ui;D:\gCode\github\mayo\src\app\dialog_save_image_view.ui;D:\gCode\github\mayo\src\app\dialog_task_manager.ui;D:\gCode\github\mayo\src\app\mainwindow.ui;D:\gCode\github\mayo\src\app\widget_clip_planes.ui;D:\gCode\github\mayo\src\app\widget_explode_assembly.ui;D:\gCode\github\mayo\src\app\widget_grid.ui;D:\gCode\github\mayo\src\app\widget_main_control.ui;D:\gCode\github\mayo\src\app\widget_main_home.ui;D:\gCode\github\mayo\src\app\widget_measure.ui;D:\gCode\github\mayo\src\app\widget_model_tree.ui;D:\gCode\github\mayo\src\app\widget_properties_editor.ui;D:\Qt5.15.2\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\gCode\github\mayo\build\MayoIO_autogen\autouic_Debug.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\gCode\github\mayo\src\app\dialog_about.ui;D:\gCode\github\mayo\src\app\dialog_inspect_xde.ui;D:\gCode\github\mayo\src\app\dialog_options.ui;D:\gCode\github\mayo\src\app\dialog_save_image_view.ui;D:\gCode\github\mayo\src\app\dialog_task_manager.ui;D:\gCode\github\mayo\src\app\mainwindow.ui;D:\gCode\github\mayo\src\app\widget_clip_planes.ui;D:\gCode\github\mayo\src\app\widget_explode_assembly.ui;D:\gCode\github\mayo\src\app\widget_grid.ui;D:\gCode\github\mayo\src\app\widget_main_control.ui;D:\gCode\github\mayo\src\app\widget_main_home.ui;D:\gCode\github\mayo\src\app\widget_measure.ui;D:\gCode\github\mayo\src\app\widget_model_tree.ui;D:\gCode\github\mayo\src\app\widget_properties_editor.ui;D:\Qt5.15.2\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\gCode\github\mayo\build\MayoIO_autogen\autouic_Release.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\gCode\github\mayo\src\app\dialog_about.ui;D:\gCode\github\mayo\src\app\dialog_inspect_xde.ui;D:\gCode\github\mayo\src\app\dialog_options.ui;D:\gCode\github\mayo\src\app\dialog_save_image_view.ui;D:\gCode\github\mayo\src\app\dialog_task_manager.ui;D:\gCode\github\mayo\src\app\mainwindow.ui;D:\gCode\github\mayo\src\app\widget_clip_planes.ui;D:\gCode\github\mayo\src\app\widget_explode_assembly.ui;D:\gCode\github\mayo\src\app\widget_grid.ui;D:\gCode\github\mayo\src\app\widget_main_control.ui;D:\gCode\github\mayo\src\app\widget_main_home.ui;D:\gCode\github\mayo\src\app\widget_measure.ui;D:\gCode\github\mayo\src\app\widget_model_tree.ui;D:\gCode\github\mayo\src\app\widget_properties_editor.ui;D:\Qt5.15.2\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\gCode\github\mayo\build\MayoIO_autogen\autouic_MinSizeRel.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\gCode\github\mayo\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\gCode\github\mayo\src\app\dialog_about.ui;D:\gCode\github\mayo\src\app\dialog_inspect_xde.ui;D:\gCode\github\mayo\src\app\dialog_options.ui;D:\gCode\github\mayo\src\app\dialog_save_image_view.ui;D:\gCode\github\mayo\src\app\dialog_task_manager.ui;D:\gCode\github\mayo\src\app\mainwindow.ui;D:\gCode\github\mayo\src\app\widget_clip_planes.ui;D:\gCode\github\mayo\src\app\widget_explode_assembly.ui;D:\gCode\github\mayo\src\app\widget_grid.ui;D:\gCode\github\mayo\src\app\widget_main_control.ui;D:\gCode\github\mayo\src\app\widget_main_home.ui;D:\gCode\github\mayo\src\app\widget_measure.ui;D:\gCode\github\mayo\src\app\widget_model_tree.ui;D:\gCode\github\mayo\src\app\widget_properties_editor.ui;D:\Qt5.15.2\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\gCode\github\mayo\build\MayoIO_autogen\autouic_RelWithDebInfo.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\gCode\github\mayo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/gCode/github/mayo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/gCode/github/mayo -BD:/gCode/github/mayo/build --check-stamp-file D:/gCode/github/mayo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeSystem.cmake;D:\gCode\github\mayo\build\OpenCascadeWin_env.cmake;D:\gCode\github\mayo\cmake\OpenCascadeWin.cmake;D:\gCode\github\mayo\i18n\mayo.qrc;D:\gCode\github\mayo\i18n\qt5base.qrc;D:\gCode\github\mayo\images\mayo.qrc;D:\gCode\github\mayo\src\mayo_config.h.cmake;D:\gCode\github\mayo\src\mayo_version.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\gCode\github\mayo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/gCode/github/mayo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/gCode/github/mayo -BD:/gCode/github/mayo/build --check-stamp-file D:/gCode/github/mayo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeSystem.cmake;D:\gCode\github\mayo\build\OpenCascadeWin_env.cmake;D:\gCode\github\mayo\cmake\OpenCascadeWin.cmake;D:\gCode\github\mayo\i18n\mayo.qrc;D:\gCode\github\mayo\i18n\qt5base.qrc;D:\gCode\github\mayo\images\mayo.qrc;D:\gCode\github\mayo\src\mayo_config.h.cmake;D:\gCode\github\mayo\src\mayo_version.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\gCode\github\mayo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/gCode/github/mayo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/gCode/github/mayo -BD:/gCode/github/mayo/build --check-stamp-file D:/gCode/github/mayo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeSystem.cmake;D:\gCode\github\mayo\build\OpenCascadeWin_env.cmake;D:\gCode\github\mayo\cmake\OpenCascadeWin.cmake;D:\gCode\github\mayo\i18n\mayo.qrc;D:\gCode\github\mayo\i18n\qt5base.qrc;D:\gCode\github\mayo\images\mayo.qrc;D:\gCode\github\mayo\src\mayo_config.h.cmake;D:\gCode\github\mayo\src\mayo_version.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\gCode\github\mayo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/gCode/github/mayo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/gCode/github/mayo -BD:/gCode/github/mayo/build --check-stamp-file D:/gCode/github/mayo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt5.15.2\5.15.2\msvc2019_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;D:\gCode\github\mayo\build\CMakeFiles\4.0.1\CMakeSystem.cmake;D:\gCode\github\mayo\build\OpenCascadeWin_env.cmake;D:\gCode\github\mayo\cmake\OpenCascadeWin.cmake;D:\gCode\github\mayo\i18n\mayo.qrc;D:\gCode\github\mayo\i18n\qt5base.qrc;D:\gCode\github\mayo\images\mayo.qrc;D:\gCode\github\mayo\src\mayo_config.h.cmake;D:\gCode\github\mayo\src\mayo_version.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\gCode\github\mayo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoIO_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\gCode\github\mayo\src\io_dxf\aci_table.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_dxf\dxf.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_dxf\freecad.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_dxf\io_dxf.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_image\io_image.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_base_mesh.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_brep.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_caf.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_common.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_gltf_reader.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_gltf_writer.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_iges.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_obj_reader.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_obj_writer.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_step.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_stl.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_vrml_reader.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_occ\io_occ_vrml_writer.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_off\io_off_reader.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_off\io_off_writer.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_ply\io_ply_reader.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_ply\io_ply_writer.h" />
+    <ClInclude Include="D:\gCode\github\mayo\src\io_ply\miniply.h" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_dxf\dxf.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_dxf\io_dxf.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_image\io_image.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_base_mesh.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_brep.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_caf.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_common.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_gltf_reader.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_gltf_writer.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_iges.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_obj_reader.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_obj_writer.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_step.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_stl.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_vrml_reader.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_occ\io_occ_vrml_writer.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_off\io_off_reader.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_off\io_off_writer.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_ply\io_ply_reader.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_ply\io_ply_writer.cpp" />
+    <ClCompile Include="D:\gCode\github\mayo\src\io_ply\miniply.cpp" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_dialog_about.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_dialog_inspect_xde.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_dialog_options.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_dialog_save_image_view.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_dialog_task_manager.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_mainwindow.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_clip_planes.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_explode_assembly.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_grid.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_main_control.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_main_home.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_measure.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_model_tree.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Debug\src\app\ui_widget_properties_editor.h" />
+    <None Include="D:\gCode\github\mayo\build\MayoIO_autogen\autouic_Debug.stamp">
+    </None>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoIO_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_dialog_about.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_dialog_inspect_xde.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_dialog_options.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_dialog_save_image_view.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_dialog_task_manager.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_mainwindow.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_clip_planes.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_explode_assembly.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_grid.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_main_control.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_main_home.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_measure.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_model_tree.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_Release\src\app\ui_widget_properties_editor.h" />
+    <None Include="D:\gCode\github\mayo\build\MayoIO_autogen\autouic_Release.stamp">
+    </None>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoIO_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_dialog_about.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_dialog_inspect_xde.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_dialog_options.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_dialog_save_image_view.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_dialog_task_manager.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_mainwindow.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_clip_planes.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_explode_assembly.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_grid.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_main_control.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_main_home.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_measure.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_model_tree.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_MinSizeRel\src\app\ui_widget_properties_editor.h" />
+    <None Include="D:\gCode\github\mayo\build\MayoIO_autogen\autouic_MinSizeRel.stamp">
+    </None>
+    <ClCompile Include="D:\gCode\github\mayo\build\MayoIO_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_dialog_about.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_dialog_inspect_xde.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_dialog_options.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_dialog_save_image_view.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_dialog_task_manager.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_mainwindow.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_clip_planes.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_explode_assembly.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_grid.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_main_control.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_main_home.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_measure.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_model_tree.h" />
+    <ClInclude Include="D:\gCode\github\mayo\build\MayoIO_autogen\include_RelWithDebInfo\src\app\ui_widget_properties_editor.h" />
+    <None Include="D:\gCode\github\mayo\build\MayoIO_autogen\autouic_RelWithDebInfo.stamp">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\gCode\github\mayo\build\ZERO_CHECK.vcxproj">
+      <Project>{0FF0FF34-DA6E-3AD9-971E-8CA48C4E7260}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\gCode\github\mayo\build\MayoCore.vcxproj">
+      <Project>{64AC6518-D9D9-3D96-92EB-2A618E5818E8}</Project>
+      <Name>MayoCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

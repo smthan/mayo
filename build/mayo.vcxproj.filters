@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\app_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\app_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\app_module_properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\app_ui_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\button_flat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\command_system_information.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\command_system_information_occopengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\commands_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\commands_display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\commands_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\commands_help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\commands_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\commands_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\dialog_about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\dialog_inspect_xde.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\dialog_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\dialog_save_image_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\dialog_task_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\document_files_watcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\document_property_group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\document_tree_node_properties_providers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\grid_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\gui_document_list_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\item_view_buttons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\list_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\occt_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\property_editor_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\property_item_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\proxy_styled_item_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\qstring_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\qtgui_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\qtwidgets_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\recent_files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_clip_planes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_explode_assembly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_file_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_gui_document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_home_files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_main_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_main_home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_measure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_message_indicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_model_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_model_tree_builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_model_tree_builder_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_model_tree_builder_xde.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_occ_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_occ_view_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_occ_view_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\widget_properties_editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\measure\measure_display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\measure\measure_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\measure\measure_tool_brep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtbackend\qsettings_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtbackend\qt_animation_backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtbackend\qt_app_translator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtbackend\qt_signal_thread_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtcommon\log_message_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtcommon\qstring_conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\qtcommon\qtcore_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\src\app\windows\win_taskbar_global_progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\O3VI4VFR3H\qrc_mayo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\O3VI4VFR3H\qrc_qt5base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\4UGIYD6VGQ\qrc_mayo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gCode\github\mayo\build\mayo_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\app_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\app_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\app_module_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\app_ui_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\button_flat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\command_system_information_occopengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\commands_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\commands_display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\commands_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\commands_help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\commands_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\commands_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\document_files_watcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\document_property_group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\document_tree_node_properties_providers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\grid_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\gui_document_list_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\item_view_buttons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\iwidget_main_page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\library_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\list_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\occt_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\property_editor_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\property_item_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\proxy_styled_item_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\qmeta_property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\qmeta_tdf_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\qstring_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\qtgui_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\qtwidgets_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\recent_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\view3d_navigation_style.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_file_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_gui_document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_home_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_message_indicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_model_tree_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_model_tree_builder_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_model_tree_builder_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_occ_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_occ_view_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\measure\measure_display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\measure\measure_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\measure\measure_tool_brep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\measure\measure_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtbackend\qsettings_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtbackend\qt_animation_backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtbackend\qt_app_translator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtbackend\qt_signal_thread_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtcommon\filepath_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtcommon\log_message_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtcommon\qstring_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtcommon\qtcore_hfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\qtcommon\qtcore_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\src\app\windows\win_taskbar_global_progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Debug\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_Release\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_MinSizeRel\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_dialog_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_dialog_inspect_xde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_dialog_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_dialog_save_image_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_dialog_task_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_clip_planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_explode_assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_main_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_main_home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_model_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gCode\github\mayo\build\mayo_autogen\include_RelWithDebInfo\src\app\ui_widget_properties_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\gCode\github\mayo\build\CMakeFiles\92cebf600c2547643b6f93700815fff9\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\gCode\github\mayo\build\CMakeFiles\c93ff30e755ff2a7dd2d5065cbc06abc\qrc_mayo.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\gCode\github\mayo\build\CMakeFiles\c93ff30e755ff2a7dd2d5065cbc06abc\qrc_qt5base.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\gCode\github\mayo\build\CMakeFiles\9b7f52600d8a5f66162a3b249db6b30d\qrc_mayo.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\gCode\github\mayo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\gCode\github\mayo\src\app\dialog_about.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\dialog_inspect_xde.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\dialog_options.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\dialog_save_image_view.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\dialog_task_manager.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\mainwindow.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_clip_planes.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_explode_assembly.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_grid.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_main_control.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_main_home.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_measure.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_model_tree.ui" />
+    <None Include="D:\gCode\github\mayo\src\app\widget_properties_editor.ui" />
+    <None Include="D:\gCode\github\mayo\i18n\mayo.qrc" />
+    <None Include="D:\gCode\github\mayo\i18n\qt5base.qrc" />
+    <None Include="D:\gCode\github\mayo\images\mayo.qrc" />
+    <None Include="D:\gCode\github\mayo\build\mayo_autogen\autouic_Debug.stamp" />
+    <None Include="D:\gCode\github\mayo\build\mayo_autogen\autouic_Release.stamp" />
+    <None Include="D:\gCode\github\mayo\build\mayo_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\gCode\github\mayo\build\mayo_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\gCode\github\mayo\images\appicon.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6B210F2F-583F-33D7-8A57-42C6E4CA866C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{310FCF36-1B1D-3213-A306-B23DF4AAA07B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{744929E6-AAB0-3FA5-ADA7-FE42C34B5813}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

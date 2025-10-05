@@ -1,0 +1,7 @@
+D:/gCode/github/mayo/build/CMakeFiles/MayoCore.dir
+D:/gCode/github/mayo/build/CMakeFiles/MayoIO.dir
+D:/gCode/github/mayo/build/CMakeFiles/mayo.dir
+D:/gCode/github/mayo/build/CMakeFiles/mayo-conv.dir
+D:/gCode/github/mayo/build/CMakeFiles/OtherFiles.dir
+D:/gCode/github/mayo/build/CMakeFiles/ALL_BUILD.dir
+D:/gCode/github/mayo/build/CMakeFiles/ZERO_CHECK.dir

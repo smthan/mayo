@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\gCode\github\mayo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_linux_arch.yml" />
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_linux_fedora.yml" />
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_linux_ubuntu.yml" />
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_linux_ubuntu_armv7.yml" />
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_macos.yml" />
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_macos_conda.yml" />
+    <None Include="D:\gCode\github\mayo\.github\workflows\ci_windows.yml" />
+    <None Include="D:\gCode\github\mayo\images\credits.txt" />
+    <None Include="D:\gCode\github\mayo\scripts\bump-version.rb" />
+    <None Include="D:\gCode\github\mayo\scripts\gen-cmake-opencascade-vars.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\gCode\github\mayo\src\mayo_config.h.cmake" />
+    <None Include="D:\gCode\github\mayo\src\mayo_version.h.cmake" />
+    <None Include="D:\gCode\github\mayo\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{744929E6-AAB0-3FA5-ADA7-FE42C34B5813}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
